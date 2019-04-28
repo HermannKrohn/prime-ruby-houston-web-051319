@@ -12,5 +12,5 @@ def prime?(integer)
     end
     i += 1 
   end
-  return false
+  return true
 end
