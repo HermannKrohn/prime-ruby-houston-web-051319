@@ -9,7 +9,8 @@ def prime?(integer)
       if count == 3
         return false
       end
-      i += 1 
     end
+    i += 1 
   end
-  
+  return false
+end
