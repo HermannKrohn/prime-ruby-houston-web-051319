@@ -6,6 +6,9 @@ def prime?(integer)
   if integer < 0 
     integer *= -1
   end 
+  if integer == 1 
+    return false
+  end 
   while i < integer
     if integer%i == 0 
       count += 1 
