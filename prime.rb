@@ -9,7 +9,7 @@ def prime?(integer)
   if integer == 1 || integer == 0  
     return false
   end 
-  while i < integer
+  while i <= integer
     if integer%i == 0 
       count += 1 
       if count == 3
